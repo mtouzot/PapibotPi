@@ -1,0 +1,7 @@
+{
+	"consumer_key" : "REPLACE WITH THE CONSUMER KEY",
+	"consumer_secret" : "REPLACE WITH THE CONSUMER SECRET KEY",
+
+	"access_token_key" : "REPLACE WITH THE ACCESS TOKEN KEY",
+	"access_token_secret" : "REPLACE WITH ACCESS TOKEN SECRET KEY"
+}
