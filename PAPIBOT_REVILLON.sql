@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Sam 11 Janvier 2020 à 10:19
+-- Généré le :  Lun 13 Janvier 2020 à 22:15
 -- Version du serveur :  10.1.37-MariaDB-0+deb9u1
 -- Version de PHP :  7.0.33-0+deb9u1
 
@@ -159,7 +159,7 @@ INSERT INTO `AUTHORS` (`ID`, `NAME`, `SURNAME`, `BIRTH`, `DEATH`, `OCC`) VALUES
 (123, 'Proverbe russe', NULL, NULL, NULL, 0),
 (124, 'Corot', 'Camille', 1796, 1875, 0),
 (150, 'Proverbe mexicain', NULL, NULL, NULL, 0),
-(151, 'Jacob', '', 0, 0, 0),
+(151, 'Jacob', 'Max', 1876, 1944, 0),
 (152, 'Scribe', 'Eugène', 1791, 1861, 0),
 (153, 'Sagesse chinoise', '', 0, 0, 0),
 (154, 'Bazin', 'René', 1853, 1932, 0),
@@ -182,7 +182,8 @@ INSERT INTO `AUTHORS` (`ID`, `NAME`, `SURNAME`, `BIRTH`, `DEATH`, `OCC`) VALUES
 (171, 'Emerson', 'Ralph Waldo', 1803, 1882, 0),
 (172, 'Deval', 'Jacques', 1890, 1972, 0),
 (173, 'Swetchine', 'Anne Sophie', 1782, 1857, 0),
-(174, 'Monselet', 'Charles', 1825, 1888, 0);
+(174, 'Monselet', 'Charles', 1825, 1888, 0),
+(175, 'Corneille', 'Pierre', 1606, 1684, 0);
 
 -- --------------------------------------------------------
 
@@ -345,7 +346,54 @@ INSERT INTO `QUOTES` (`ID`, `AUTH_ID`, `QUOTE`) VALUES
 (146, 6, 'Les mots manquent aux émotions.'),
 (147, 33, 'La puissance, c\'est imposer sa volotoné aux autres. La force, c\'est de se l\'imposer à soi-même.'),
 (148, 11, 'Un instant de bonheur vaut mille ans dans l\'histoire.'),
-(149, 105, 'À vingt ans, c\'est la volonté qui règne, à trente ans, c\'est l\'esprit et à quarante le jugement.');
+(149, 105, 'À vingt ans, c\'est la volonté qui règne, à trente ans, c\'est l\'esprit et à quarante le jugement.'),
+(150, 154, 'Être jeune, c\'est avoir un esprit qui calcule et un coeur qui ne calcule pas.'),
+(151, 153, 'Ne craignez pas d\'avancer lentement, craignez seulement de rester sur place.'),
+(152, 174, 'La gastronomie fait trembler d\'intelligence nos narines.'),
+(153, 173, 'L\'idéal de l\'amitié c\'est de se sentir un et de rester deux.'),
+(154, 5, 'Le silence est un ami qui ne trahit jamais.'),
+(155, 120, 'Je me moque de savoir beaucoup de choses : je veux savoir des choses que j\'aime.'),
+(156, 118, 'Les paroles sages tombent quelquefois dans l\'oreille d\'un sourd  ; mais un mot gentil n\'est jamais perdu.'),
+(157, 171, 'N\'allez pas là où le chemin peut mener. Allez là où il n\'y a pas de chemin et laissez une trace.'),
+(158, 18, 'La beauté est dans les yeux de celui qui regarde.'),
+(159, 172, 'Une joie partagée est une double joie, un chagrin partagé est un demi-chagrin.'),
+(160, 77, 'La mémoire est toujours aux ordres du coeur.'),
+(161, 21, 'Le futur appartient à celui qui a la plus longue mémoire.'),
+(162, 42, 'Faites que le rêve dévore votre vie afin que la vie ne dévore pas votre rêve.'),
+(163, 170, 'Une erreur originale vaut mieux qu\'une vérité banale.'),
+(164, 33, 'La nature fait les choses sans se presser, et pourtant tout est accompli.'),
+(165, 169, 'Un grain de gaieté assaisonne tout.'),
+(166, 165, 'Que ton baiser ait l\'ardeur du soleil, et la rose te donnera tout son parfum.'),
+(167, 45, 'Le remède à l\'ennui, c\'est la curiosité. La curiosité elle, est sans remède.'),
+(168, 106, 'La plus perdue de toutes les journées est celle où l\'on n\'a pas ri.'),
+(169, 76, 'Celui même qui veut écrire son rêve se doit d\'être infiniment éveillé.'),
+(170, 166, 'Tout ce que tu feras sera dérisoire, mais il est essentiel que tu le fasses.'),
+(171, 42, 'Si tu veux comprendre le mot bonheur, il faut l\'entendre comme une récompense et non comme but.'),
+(172, 156, 'Je vais être jaloux de cette tour. Elle est plus célèbre que moi.'),
+(173, 157, 'Si on veut connaître un peuple, il faut écouter sa musique.'),
+(174, 161, 'La seule limite à notre épanouissement de demain sera nos dotes d\'aujourd\'hui.'),
+(175, 150, 'Le sourire est le même dans toutes les langues.'),
+(176, 20, 'Sourire trois fois tous les jours rend inutile tout médicament.'),
+(177, 168, 'Supprimons de la vie toute raison d\'ennuis : car il est court le temps qui nous est imparti !'),
+(178, 155, 'Dis-toi d\'avord ce que tu veux être, puis fais ce qu\'il faut pour le devenir.'),
+(179, 79, 'À Noël, je n\'ai pas plus envie de rose que je ne voudrais de neige au printemps. J\'aime autant chaque saison pour ce qu\'elle apporte.'),
+(180, 159, 'Il ne faut avoir aucun regret pour le passé, aucun remords pour le présent, et une confiance inébranlable pour l\'avenir.'),
+(181, 158, 'Quand la colère emplit ton coeur, ne laisse pas ta langue aboyer en vain.'),
+(182, 160, 'La diplomatie, c\'est faire et dire les plus vilaines choses de la manière la plus élégante.'),
+(183, 152, 'Les petits cadeaux entretiennent l\'amitié. Le premier qui a dit cela voulait se faire donner quelque chose.'),
+(184, 15, 'Une lecture amusante est aussi utile à la santé que l\'exercice du corps.'),
+(185, 167, 'On peut peindre une fleur, mais pas son odeur.'),
+(186, 21, 'Le bonheur, c\'est de continuer à désirer ce qu\'on possède.'),
+(187, 18, 'On ne devrait vivre que pour le plaisir. Rien ne vieillit comme le bonheur.'),
+(188, 124, 'Le tout, c\'est d\'avoir du génie à vingt ans et du talent à quatre-vingts.'),
+(189, 21, 'Chaque homme cache en lui un enfant qui veut jouer?'),
+(190, 164, 'À l\'oiseau, le nid; à l\'araignée, sa toile; à l\'homme, l\'amitié.'),
+(191, 11, 'Dans une avalanche, aucun flocon ne se sens jamais responsable.'),
+(192, 28, 'Le génie, c\'est l\'enfance retrouvée à vonlonté.'),
+(193, 22, 'Il faut toute la vie pour apprendre à vivre.'),
+(194, 151, 'L\'émotion artistique cesse où l\'analyse et la pensée interviennent.'),
+(195, 175, 'Dans le bonheur d\'autrui, je cherche mon bonheur.'),
+(196, 10, 'La simplicité est la sophistication suprême.');
 
 --
 -- Index pour les tables exportées
@@ -376,12 +424,12 @@ ALTER TABLE `QUOTES`
 -- AUTO_INCREMENT pour la table `AUTHORS`
 --
 ALTER TABLE `AUTHORS`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=175;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
 --
 -- AUTO_INCREMENT pour la table `QUOTES`
 --
 ALTER TABLE `QUOTES`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=197;
 --
 -- Contraintes pour les tables exportées
 --
