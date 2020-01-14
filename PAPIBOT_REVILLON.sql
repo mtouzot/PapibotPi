@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Lun 13 Janvier 2020 à 22:15
+-- Généré le :  Mar 14 Janvier 2020 à 19:32
 -- Version du serveur :  10.1.37-MariaDB-0+deb9u1
 -- Version de PHP :  7.0.33-0+deb9u1
 
@@ -183,7 +183,11 @@ INSERT INTO `AUTHORS` (`ID`, `NAME`, `SURNAME`, `BIRTH`, `DEATH`, `OCC`) VALUES
 (172, 'Deval', 'Jacques', 1890, 1972, 0),
 (173, 'Swetchine', 'Anne Sophie', 1782, 1857, 0),
 (174, 'Monselet', 'Charles', 1825, 1888, 0),
-(175, 'Corneille', 'Pierre', 1606, 1684, 0);
+(175, 'Corneille', 'Pierre', 1606, 1684, 0),
+(177, 'Giraudoux', 'Jean', 1882, 1944, 0),
+(178, 'Proverbe créole', NULL, NULL, NULL, 0),
+(179, 'Bacon', 'Françis', 1561, 1626, 0),
+(180, 'Sophocle', NULL, -495, -406, 0);
 
 -- --------------------------------------------------------
 
@@ -267,7 +271,7 @@ INSERT INTO `QUOTES` (`ID`, `AUTH_ID`, `QUOTE`) VALUES
 (63, 78, 'L\'amour, c\'est la fusion, l\'identification de deux êtres qui s\'admirent et s\'adorent l\'un l\'autre'),
 (64, 67, 'La variété est la véritable épice de la vie. Qui lui donne toute sa saveur.'),
 (65, 53, 'Si haut que parvienne une chose lancée, c\'est à terre qu\'elle retourne.'),
-(66, 66, 'Le bonheur est une chose qui se miltiplie quand il se divise.'),
+(66, 66, 'Le bonheur est une chose qui se multiplie quand il se divise.'),
 (67, 21, 'Vivre de telle sortie qu\'il te faille désirer revivre, c\'est là ton devoir.'),
 (68, 79, 'L\'espérance d\'une joie est presque égale à la joie qu\'elle donne.'),
 (69, 56, 'Le plaisir se ramasse, la joie se  cueille et le bonheur se cultive.'),
@@ -393,7 +397,21 @@ INSERT INTO `QUOTES` (`ID`, `AUTH_ID`, `QUOTE`) VALUES
 (193, 22, 'Il faut toute la vie pour apprendre à vivre.'),
 (194, 151, 'L\'émotion artistique cesse où l\'analyse et la pensée interviennent.'),
 (195, 175, 'Dans le bonheur d\'autrui, je cherche mon bonheur.'),
-(196, 10, 'La simplicité est la sophistication suprême.');
+(196, 10, 'La simplicité est la sophistication suprême.'),
+(197, 65, 'Le voyage est un retour vers l\'essentiel.'),
+(198, 49, 'Le risque de prendre une mauvaise décision n\'est rien comparé à la terreur de l\'indécision.'),
+(199, 100, 'Le véritable voyage de découverte ne consiste pas à chercher de nouveaux paysages, mais à avoir de nouveaux yeux.'),
+(200, 177, 'Le bonheur est une eptite chose que l\'on grignote, assis par terre, au soleil.'),
+(201, 21, 'Deviens ce que tu es. Fais ce que toi seul peut faire.'),
+(202, 178, 'Assure-toi que la bougie est allumée avant d\'éteindre l\'allumette.'),
+(203, 154, 'Il faut faire le sacrifice de ses préférences mais pas celui de ses convictions.'),
+(204, 79, 'L\'amour ne voit pas avec les yeux mais avec l\'âme.'),
+(205, 179, 'Toute ascension vers un endroit merveilleux se fait par un escalier en spirale.'),
+(206, 22, 'Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.'),
+(207, 6, 'La véritable indulgence consiste à comprendre et à pardonner les fautes qu\'on ne serait pas capable de commettre.'),
+(208, 180, 'Il n\'y a pas de plus grande joie que celle qu\'on n\'attend pas.'),
+(209, 168, 'Supprimons de la vie toute raison d\'ennuis : car il est court le temps qui nous est imparti !'),
+(210, 163, 'Tous les trésors de la Terre ne valent pas le bonheur d\'être aimé.');
 
 --
 -- Index pour les tables exportées
@@ -424,12 +442,12 @@ ALTER TABLE `QUOTES`
 -- AUTO_INCREMENT pour la table `AUTHORS`
 --
 ALTER TABLE `AUTHORS`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=181;
 --
 -- AUTO_INCREMENT pour la table `QUOTES`
 --
 ALTER TABLE `QUOTES`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=197;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=211;
 --
 -- Contraintes pour les tables exportées
 --
