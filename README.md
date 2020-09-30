@@ -1,3 +1,5 @@
+/!\ Refonte en cours /!\
+
 # [@PapibotRevillon](https://twitter.com/PapibotRevillon)
 
 Ce projet est celui d'un bot Twitter qui énumère toutes les citations des papillotes Révillon, sans ordre précis. Le format adopté pour les citations est le suivant : 
