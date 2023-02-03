@@ -3,7 +3,7 @@
 Bien que le précédent commit date de fin septembre 2020, ce projet ne pourra donc pas renaître sous de ses cendres sur Twitter car les deux versions de l'API de Twitter seront cachées derrière un paywall. N'ayant pas (encore?) l'argent d'Elon Musk pour maintenir un tel projet si frugal, plus aucune MAJ ne sera effectuée sur le repo.
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Starting February 9, we will no longer support free access to the Twitter API, both v2 and v1.1. A paid basic tier will be available instead 🧵</p>&mdash; Twitter Dev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1621026986784337922?ref_src=twsrc%5Etfw">February 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Starting February 9, we will no longer support free access to the Twitter API, both v2 and v1.1. A paid basic tier will be available instead 🧵</p>&mdash; Twitter Dev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1621026986784337922?ref_src=twsrc%5Etfw">February 2, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Ce projet aura pu me permettre de me familiariser un peu plus avec Python et une petite BDD MySQL sur un Raspberry Pi Zero.
 
